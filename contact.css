@@ -1,0 +1,81 @@
+body {
+    font-family: Helvetica;
+    background-color: mintcream;
+    color: #333;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.email {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.email p {
+    margin-bottom: 10px;
+}
+
+.note {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.note p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+}

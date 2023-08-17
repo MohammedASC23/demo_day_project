@@ -1,0 +1,53 @@
+body {
+    background-color:mintcream;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts h2,
+.create-post h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.create-post form label,
+.create-post form textarea,
+.create-post form button {
+    display: block;
+    margin-bottom: 10px;
+}

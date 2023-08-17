@@ -1,0 +1,85 @@
+body {
+    background-color:mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+    font-family: Helvetica;
+}
+#redflags {
+    color: coral;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.red_flag {
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.red_flags {
+    background-color: rgba(0, 0, 0, 0.1);;
+}
+.red_flag_note {
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    padding:20px;
+    font-size: 20px;
+}
+
+#red_flag_alert_title {
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+#alert_text {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+}

@@ -1,0 +1,187 @@
+body {
+    background-color: mintcream;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+    border-style: solid;
+    border-color: black;
+}
+
+img {
+ display: flex;
+}
+
+.logo {
+    display:flex;
+}
+
+.scam_images {
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-around;
+    padding-right: 50px;
+}
+
+.scam_image {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.scammer_image {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.quiz_image {
+    border-style: solid;
+    border-width: 5px;
+}
+
+#stat_title {
+    font-size: 35px;
+    text-decoration: underline;
+    color:cornflowerblue;
+    text-align: center;
+}
+
+.scam_stats {
+    text-align: center;
+    background-color: coral;
+    border-style: solid;
+}
+
+ol {
+    list-style: circle;
+
+}
+
+#info1 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+#info2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+#info3 {
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+.logo {
+    justify-content: center;
+}
+
+#enter_quiz {
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+nav a {
+    font-size:20px;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+#enter_quiz {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+#about_us {
+    text-align: center;
+    font-size: 35px;
+    text-decoration-line: underline;
+    color:cornflowerblue;
+}
+
+.creators {
+    background-color: coral;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    border-style: solid;
+}
+
+#mo {
+    text-decoration: underline;
+    color:white;
+}
+
+#Z {
+    text-decoration: underline;
+    color:white;
+}
+
+#E {
+    text-decoration: underline;
+    color:white;
+}
+
+#mo_text {
+    color:white;
+    font-size: 20px;
+}
+
+#E_text {
+    color:white;
+    font-size: 20px;
+}
+
+#Z_text {
+    color:white;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 10px 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.origin_title {
+    text-decoration: underline;
+    font-size:20px;
+    text-align: center;
+    color:cornflowerblue;
+}
+.origin_text {
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    background-color: coral;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:15px;
+}
+
+button {
+    color:black;
+}
